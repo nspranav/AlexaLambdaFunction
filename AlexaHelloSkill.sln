@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlexaHelloSkill", "AlexaHelloSkill\AlexaHelloSkill.csproj", "{FB36BD60-24FC-4442-A4CA-BAFE82A5F058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlexaHelloSkill.Tests", "AlexaHelloSkill.Tests\AlexaHelloSkill.Tests.csproj", "{0931F453-936C-44F4-83CD-2ED6B5EB342B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB36BD60-24FC-4442-A4CA-BAFE82A5F058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB36BD60-24FC-4442-A4CA-BAFE82A5F058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB36BD60-24FC-4442-A4CA-BAFE82A5F058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB36BD60-24FC-4442-A4CA-BAFE82A5F058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0931F453-936C-44F4-83CD-2ED6B5EB342B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0931F453-936C-44F4-83CD-2ED6B5EB342B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0931F453-936C-44F4-83CD-2ED6B5EB342B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0931F453-936C-44F4-83CD-2ED6B5EB342B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E015D7E8-5428-40F5-B658-388F1DF56D26}
+	EndGlobalSection
+EndGlobal
