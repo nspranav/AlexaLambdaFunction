@@ -21,7 +21,11 @@ namespace AlexaHelloSkill
         /// <returns></returns>
         public string FunctionHandler(string input, ILambdaContext context)
         {
-            return input?.ToUpper();
+            var logger = context.Logger;
+            logger.Log("received : " + input);
+            return input != null && input.Equals("hello", StringComparison.CurrentCultureIgnoreCase)
+                ? input?.ToUpper()
+                : "Where are your manners";
         }
     }
 }

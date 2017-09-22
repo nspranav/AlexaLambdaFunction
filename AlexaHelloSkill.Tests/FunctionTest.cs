@@ -7,8 +7,6 @@ using Xunit;
 using Amazon.Lambda.Core;
 using Amazon.Lambda.TestUtilities;
 
-using AlexaHelloSkill;
-
 namespace AlexaHelloSkill.Tests
 {
     public class FunctionTest
@@ -21,7 +19,7 @@ namespace AlexaHelloSkill.Tests
             var function = new Function();
             var context = new TestLambdaContext();
             var upperCase = function.FunctionHandler("hello world", context);
-
+       
             Assert.Equal("HELLO WORLD", upperCase);
         }
     }
