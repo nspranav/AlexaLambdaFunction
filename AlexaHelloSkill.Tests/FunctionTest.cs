@@ -53,10 +53,10 @@ namespace AlexaHelloSkill.Tests
                     RequestId = "EdwRequestId.ad774ecd-1c84-41f1-80e6-0b334a9927cd",
                     Intent = new Intent
                     {
-                        Name = "SendMessageIntent",
+                        Name = "HelloIntent",
                         Slots = new Dictionary<string, Slot>()
                         {
-                            {"Name", new Slot {Name = "Name", Value = "daddy"}}
+                            //{"Name", new Slot {Name = "Name", Value = "daddy"}}
                         }
                     },
                     Locale = "en-US",
